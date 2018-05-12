@@ -114,13 +114,14 @@ def get_week_raw_json_data(season: int, game_type: str, week: int):
         file_name = "{date}_{season}_{game_type}_{week}_{home}vs{away}.json".format(
             date=game_code[0:8], season=season, game_type=game_type, week=week, home=home_team_abbr,
             away=away_team_abbr)
+        full_path = os.path.join(file_path, file_name)
 
         # make directory if it doesn't exist
         if not os.path.isdir(file_path):
             os.makedirs(file_path)
 
         # dump json data
-        with open(file_path, file_name, 'w') as j:
+        with open(full_path, 'w') as j:
             json.dump(game_data_raw_json, j)
 
 
