@@ -26,6 +26,7 @@ for t in root_child[0]:
 #     full_path = os.path.join(file_path, file_name)
 """
 
+
 class NflDatabaseBuilder:
 
     def get_week_raw_json_data(self, season: int, game_type: str, week: int):
