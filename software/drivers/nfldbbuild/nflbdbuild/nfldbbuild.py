@@ -27,7 +27,10 @@ for t in root_child[0]:
 """
 
 
-class NflDatabaseBuilder:
+class NflDatabaseBuild(object):
+
+    def __init__(self):
+        pass
 
     def get_week_raw_json_data(self, season: int, game_type: str, week: int):
         """

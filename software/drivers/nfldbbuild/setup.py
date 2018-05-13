@@ -1,9 +1,9 @@
 from distutils.core import setup
 
 setup(
-    name='nfl_bd_builder',
+    name='nflbdbuild',
     version='0.0.0',
-    packages=['software.drivers.nfl_db'],
+    packages=['nflbdbuild'],
     url='',
     license='',
     author='Jay',
