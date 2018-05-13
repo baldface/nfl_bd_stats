@@ -2,7 +2,7 @@ from distutils.core import setup
 
 setup(
     name='nfl_bd_builder',
-    version='',
+    version='0.0.0',
     packages=['software.drivers.nfl_db'],
     url='',
     license='',
