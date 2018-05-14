@@ -1,9 +1,9 @@
 from distutils.core import setup
 
 setup(
-    name='nflbdbuild',
+    name='nfldbbuild',
     version='0.0.0',
-    packages=['nflbdbuild'],
+    packages=['nfldbbuild'],
     url='',
     license='',
     author='Jay',
