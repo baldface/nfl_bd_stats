@@ -64,8 +64,8 @@ class NflDatabaseBuild(object):
 
                 #build file name to save raw json as and save
                 file_path = os.path.abspath(os.path.join(
-                    os.path.dirname(__file__), "..", "..", 'raw_json', 'season_{season}', 'game_type_{game_type}',
-                    'week_{week}').format(season=season, game_type=game_type, week=week))
+                    os.path.dirname(__file__), '..', '..', '..', '..', 'raw_json', 'season_{season}',
+                    'game_type_{game_type}', 'week_{week}').format(season=season, game_type=game_type, week=week))
                 file_name = "{date}_{season}_{game_type}_{week}_{home}vs{away}.json".format(
                     date=game_code[0:8], season=season, game_type=game_type, week=week, home=home_team_abbr,
                     away=away_team_abbr)
